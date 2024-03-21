@@ -53,6 +53,8 @@ const Pharmacy = () => {
           <button className="edit-btn" onClick={() => handleedit(index)}>Edit</button>
         </div>
       ))}</div>
+          <button className="delete-btn" onClick={handledelete}>Delete</button>
+          <button className="edit-btn" onClick={handleedit}>Edit</button>
 
     </div>
   )
