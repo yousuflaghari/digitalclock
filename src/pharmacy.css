@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.heading-1 {
+    margin-bottom: 20px;
+}
+
+.inputitem {
+    height: 25px;
+    width: 400px;
+}
+.time-container{
+    display: flex;
+}
+.date{
+    margin-right: 200px;
+}
+.time{
+    margin-left: 200px;
+}
+.btn{
+   background-color:aqua;
+   height: 30px;
+}
+.item-container{
+    margin-top: 10px;
+    border: 1px solid;
+    height: 130px;
+    width: 453px;
+}
+.delete-btn,
+.edit-btn {
+  margin-left: 10px;
+}
